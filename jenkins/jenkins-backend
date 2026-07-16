@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_REGION      = "us-east-1"
-        AWS_ACCOUNT_ID  = "341221860475"
+        AWS_ACCOUNT_ID  = "691304835383"
 
         ECR_REPO        = "backend"
         IMAGE_TAG       = "${BUILD_NUMBER}"
